@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>A small page(shengbei)</title>
+	<title>A small page(shuangfeiyi)</title>
 	<style type="text/css">
 	html,body,h1,p{margin: 0;padding: 0;}
 	body{background-color: #e0e0e0;font:13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";}
@@ -17,7 +17,7 @@
 		padding-top: 10px;
 	}
 	.main{
-		padding-left: 200px;
+		width: 100%;
 	}
 	.main:after{
 		content: "";
@@ -29,19 +29,17 @@
 		background-color: #e0e0e0;
 		float: left;
 		font-size: 1.5em;
-		box-sizing: border-box;
+	}
+	.main-inner{
+		margin-left: 200px;
 		padding-top: 100px;
 		padding-left: 50px;
-
 	}
 	.aside{
 		width: 200px;
 		float: left;
 		background-color: #CDCECE;
 		margin-left: -100%;
-		position: relative;
-		left: -200px;
-		top:0;
 		font-size: 1.1em;
 	}
 	.footer{
@@ -59,10 +57,12 @@
 	<p>It's a good experence to learn Git</p>
 </header>
 <div class="main">
-		<div class="main-content">登鹳雀楼</br>唐 王之涣</br>白日依山尽，黄河入海流。</br> 欲穷千里目，更上一层楼。</div>
+		<div class="main-content">
+			<div class="main-inner">登鹳雀楼</br>唐 王之涣</br>白日依山尽，黄河入海流。</br> 欲穷千里目，更上一层楼。</div>
+		</div>
 		<div class="aside">
 			<ul>
-				<li><a href="./index.html">index2.html</a></li>
+				<li><a href="./index.html">index.html</a></li>
 				<li>登鹳雀楼</li>
 				<li>登鹳雀楼</li>
 				<li>登鹳雀楼</li>
